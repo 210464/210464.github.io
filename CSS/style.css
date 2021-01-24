@@ -1,0 +1,100 @@
+body {
+  background-color: #656868;
+}
+img {
+  height: 400px;
+  float: right;
+  border-style: solid; 
+  border-color: #1b4f72;
+}
+#turingaward {
+  float: left;
+}
+.pixar {
+  height: 250px;
+  float: right;
+  border-style: solid; 
+  border-color: #1b4f72;
+}
+h1 {
+  color: #1c2733;
+}
+h4 {
+  color: #243342;
+}
+p {
+  color: #053b31;
+}
+.feedback {
+  background-color: #aecac7;
+}
+.rand {
+  border-style: solid;
+  border-color: #022921;
+}
+.lijst {
+  color: #235349;
+}
+.link {
+  color: #289e41;
+  font-size: 20px;
+}
+#menu {
+  color:  #173f1f;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+      
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  background-color: rgb(21, 14, 88); 
+  background-color: rgba(26, 47, 105, 0.9); 
+  overflow-x: hidden; 
+  transition: 0.5s; 
+}
+
+
+.overlay-content {
+  position: relative;
+  top: 10%; 
+  width: 100%; 
+  text-align: center; 
+  margin-top: 30px; 
+}
+
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; 
+  transition: 0.3s; 
+}
+
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
